@@ -1,0 +1,15 @@
+Tests to run on decoder.py:
+- Check that no unwanted output is printed while debug_print is disabled.
+DONE - Test bad filename
+DONE - Test good filename (duh!)
+DONE - Test passwords that do not respect 1 of the 4 regex tests and see output message (especially & sign for special characters since its a late fix/addition)
+DONE - Test passwords that include characters in alphabet but not explicitly mentioned as being allowed in passwords
+DONE - Test passwords that include characters not in alphabet
+DONE - Test valid but incorrect passwords
+DONE - Test bad regex password after a good regex but wrong password 
+DONE - Test valid passwords for valid file
+DONE - Test doing many decoding steps (i.e valid but bad passwords) then valid password decoding step
+DONE - Check that output is valid
+DONE - Test that q works before anythin entered, after bad file, before password, after bad password, after bad password with decryption try.
+
+- Make sure FileDecoder can be used standalone as expected.
